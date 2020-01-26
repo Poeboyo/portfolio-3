@@ -1,0 +1,29 @@
+{
+  "name": "portfolio-3",
+  "version": "1.0.0",
+  "description": "Jeffrey Poe's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Poeboyo/portfolio-3.git"
+  },
+  "keywords": [
+    "Portfolio",
+    "Poe",
+    "poe",
+    "boyo",
+    "work",
+    "hire",
+    "dev",
+    "full-stack"
+  ],
+  "author": "Jeffrey Poe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Poeboyo/portfolio-3/issues"
+  },
+  "homepage": "https://github.com/Poeboyo/portfolio-3#readme"
+}
