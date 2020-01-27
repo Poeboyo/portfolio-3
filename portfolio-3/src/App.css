@@ -4,8 +4,7 @@ body {
 a {
   color: aqua;
 }
-/* .sky-box {
-} */
+
 .name-poe {
   text-align: center;
   color: aliceblue;
@@ -19,3 +18,12 @@ a {
   position: absolute;
   margin-top: 18%;
 }
+
+.tab-management {
+  position: absolute;
+  margin-top: 54.75%;
+  width: 100%;
+}
+/* #about-me{} */
+/* #portfolio{} */
+/* #contact-me{} */
