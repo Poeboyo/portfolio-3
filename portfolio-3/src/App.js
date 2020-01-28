@@ -3,7 +3,7 @@ import "./App.css";
 import Sky from "./components/Sky";
 import Name from "./components/Name";
 import Tabs from "./components/Tabs";
-import Footer from "./Footer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
