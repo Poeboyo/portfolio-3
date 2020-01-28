@@ -40,7 +40,7 @@ class About extends Component {
               I have learned skills in Markup and Programming Languages such as
               HTML, CSS, and JavaScript and have become familiarized with
               Libraries and Frameworks such as BootStrap, Materialize, jQuery,
-              Node.js, Express, MySQL, Sequelize, MongoDB, and React
+              Node.js, Express, MySQL, Sequelize, MongoDB, FireBase, and React
             </p>
             <div class="row bruh">
               <div class="col s3">
