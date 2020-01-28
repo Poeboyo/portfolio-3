@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import About from "./About";
 import Projects from "./Projects";
 import MyForm from "./Contact";
+import Footer from "./Footer";
 
 class Tabs extends Component {
   render() {
@@ -36,6 +37,11 @@ class Tabs extends Component {
           <MyForm />
         </div>
       </div>
+      <div>
+         <Footer />
+      <div/>
+   
+   
     );
   }
 }

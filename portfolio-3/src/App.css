@@ -2,8 +2,9 @@ body {
   background-color: #23395d;
 }
 a {
-  color: aqua;
+  color: blue;
 }
+
 .sky-box {
   width: 100%;
 }
@@ -42,16 +43,13 @@ a {
 .tabs .indicator {
   background-color: blue;
 } /*Color of underline*/
-/* #about-me{} */
-/* #portfolio{} */
-/* #contact-me{} */
+
 .sides {
   background-color: grey;
 }
 .headshot {
   height: 40%;
   width: 20%;
-  /* transform: rotate(90deg); */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -73,4 +71,11 @@ a {
 .logo {
   height: 8%;
   width: 8%;
+}
+.contact {
+  padding: 5%;
+}
+
+.footer-icon {
+  width: 25%;
 }
