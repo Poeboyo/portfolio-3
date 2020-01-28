@@ -19,16 +19,16 @@ class About extends Component {
     return (
       <div class="col s10 about-content">
         <div class="row" id="about-box">
-          <div class="col s7">
-            {" "}
+          <div class="col s12 align-center">
             <img
               class="headshot"
               src={headshot}
               alt="Jeffrey Poe Profile Shot"
             />
           </div>
-
-          <div class="about-text col s5">
+        </div>
+        <div class="row about-content">
+          <div class="about-text col s12">
             <p class="abttxt center-align">
               My name is Jeffrey Poe and I entered the UCF Coding Bootcamp to
               develop skills in Full-Stack Development to hopefully achieve a
@@ -42,54 +42,55 @@ class About extends Component {
               Libraries and Frameworks such as BootStrap, Materialize, jQuery,
               Node.js, Express, MySQL, Sequelize, MongoDB, FireBase, and React
             </p>
-            <div class="row bruh">
-              <div class="col s3">
-                <img src={html} alt="icon" class="icon-set" />
-              </div>
-              <div class="col s3">
-                <img src={css} alt="icon" class="icon-set" />
-              </div>
-              <div class="col s3">
-                <img src={js} alt="icon" class="icon-set" />
-              </div>
-              <div class="col s3">
-                <img src={bootstrap} alt="icon" class="icon-set" />
-              </div>
-            </div>
-            <div class="row bruh">
-              <div class="col s3">
-                <img src={materialize} alt="icon" class="icon-set" />
-              </div>
-              <div class="col s3">
-                <img src={handlebars} alt="icon" class="icon-set" />
-              </div>
-              <div class="col s3">
-                <img src={node} alt="icon" class="icon-set" />
-              </div>
-              <div class="col s3">
-                <img src={express} alt="icon" class="icon-set" />
-              </div>
-            </div>
+          </div>
+        </div>
 
-            <div class="row bruh">
-              <div class="col s3">
-                <img src={mysql} alt="icon" class="icon-set" />
-              </div>
-              <div class="col s3">
-                <img src={firebase} alt="icon" class="icon-set" />
-              </div>
-              <div class="col s3">
-                <img src={mongodb} alt="icon" class="icon-set" />
-              </div>
-              <div class="col s3">
-                <img src={sequelize} alt="icon" class="icon-set" />
-              </div>
-            </div>
-            <div class="row bruh">
-              <div class="col s3">
-                <img src={reactlogo} alt="icon" class="icon-set" />
-              </div>
-            </div>
+        <div class="row bruh hide-on-small-only">
+          <div class="col s3">
+            <img src={html} alt="icon" class="icon-set" />
+          </div>
+          <div class="col s3">
+            <img src={css} alt="icon" class="icon-set" />
+          </div>
+          <div class="col s3">
+            <img src={js} alt="icon" class="icon-set" />
+          </div>
+          <div class="col s3">
+            <img src={bootstrap} alt="icon" class="icon-set" />
+          </div>
+        </div>
+        <div class="row bruh hide-on-small-only">
+          <div class="col s3">
+            <img src={materialize} alt="icon" class="icon-set" />
+          </div>
+          <div class="col s3">
+            <img src={handlebars} alt="icon" class="icon-set" />
+          </div>
+          <div class="col s3">
+            <img src={node} alt="icon" class="icon-set" />
+          </div>
+          <div class="col s3">
+            <img src={express} alt="icon" class="icon-set" />
+          </div>
+        </div>
+
+        <div class="row bruh hide-on-small-only">
+          <div class="col s3">
+            <img src={mysql} alt="icon" class="icon-set" />
+          </div>
+          <div class="col s3">
+            <img src={firebase} alt="icon" class="icon-set" />
+          </div>
+          <div class="col s3">
+            <img src={mongodb} alt="icon" class="icon-set" />
+          </div>
+          <div class="col s3">
+            <img src={sequelize} alt="icon" class="icon-set" />
+          </div>
+        </div>
+        <div class="row bruh hide-on-small-only">
+          <div class="col s3">
+            <img src={reactlogo} alt="icon" class="icon-set" />
           </div>
         </div>
       </div>
