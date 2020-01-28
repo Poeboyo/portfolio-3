@@ -9,13 +9,11 @@ class Tabs extends Component {
       <div class="row tab-management">
         <div class="col s12 white">
           <ul class="tabs">
-            <li class="tab col s4">
+            <li class="active" class="tab col s4">
               <a href="#portfolio">Portfolio</a>
             </li>
             <li class="tab col s4">
-              <a class="active" href="#about-me">
-                About Me / Resume
-              </a>
+              <a href="#about-me">About Me / Resume</a>
             </li>
             <li class="tab col s4">
               <a href="#contact-me">Contact Me</a>

@@ -11,7 +11,7 @@ class Name extends Component {
       <div data-aos="fade-down">
         <div class="name-poe-backing">
           <h1 class="name-poe">Jeffrey Poe</h1>
-          <h3 class="name-poe">Full-Stack Web Developer</h3>
+          <h4 class="name-poe">Full-Stack Web Developer</h4>
         </div>
       </div>
     );

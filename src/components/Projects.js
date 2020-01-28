@@ -5,12 +5,12 @@ import csk from "../assets/projects/csk.png";
 import giphy from "../assets/projects/gif.png";
 import gitlink from "../assets/projects/github-logo.png";
 import hollowknight from "../assets/projects/hollow-knight.png";
-// import instagram from "../assets/projects/instagram.png";
 import liri from "../assets/projects/liri.png";
 import majora from "../assets/projects/majora.png";
 import psychic from "../assets/projects/psychic.jpg";
 import train from "../assets/projects/train.png";
 import whether from "../assets/projects/whether.png";
+import cozycouch from "../assets/projects/cozycouch.png";
 
 class Projects extends Component {
   render() {
@@ -432,6 +432,50 @@ class Projects extends Component {
                   <p>
                     <a href="https://borgorr.herokuapp.com/" target="_blank">
                       Live Site
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* <!-- Menu Item --> */}
+            <div class="col s m4">
+              <div class="card z-depth-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src={cozycouch} alt="A Cozy App" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4 center">
+                    Cozy Couch
+                  </span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">
+                    Cozy Couch<i class="material-icons right">close</i>
+                  </span>
+                  <p class="card-text">
+                    A Chill App for vibing, low-fi, and looking at and logging
+                    your favorite forms of entertainment and joy.
+                    <ul>
+                      <li>Front End Design: Jeffrey Poe</li>
+                      <li>Backend and Routing: Elliot Dodge</li>
+                      <li>
+                        API Management and Implementation: Tsendpurev Saran
+                      </li>
+                    </ul>
+                  </p>
+                  <p>
+                    <a
+                      href="https://shelfy-shelf.herokuapp.com/"
+                      target="_blank"
+                    >
+                      <p>Live Site</p>
+                    </a>
+                    <a href="https://github.com/wedodge89/cozy-couch">
+                      <img
+                        class="logo github-link"
+                        src={gitlink}
+                        alt="Github Link"
+                      />
                     </a>
                   </p>
                 </div>
