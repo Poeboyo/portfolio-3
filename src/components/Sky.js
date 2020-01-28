@@ -35,7 +35,7 @@ class Skies extends Component {
             11: reactlogo,
             12: sequelize
           }}
-          how={110}
+          how={125}
           time={90} /* time of animation */
           size={"150px"} /* size of the rendered images */
           background={""} /* color of background */

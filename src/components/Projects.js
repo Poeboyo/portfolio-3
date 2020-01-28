@@ -453,8 +453,8 @@ class Projects extends Component {
                     Cozy Couch<i class="material-icons right">close</i>
                   </span>
                   <p class="card-text">
-                    A Chill App for vibing, low-fi, and looking at and logging
-                    your favorite forms of entertainment and joy.
+                    A Chill App for vibing, low-fi, and logging favorite
+                    activites.
                     <ul>
                       <li>Front End Design: Jeffrey Poe</li>
                       <li>Backend and Routing: Elliot Dodge</li>
@@ -463,16 +463,21 @@ class Projects extends Component {
                       </li>
                     </ul>
                   </p>
-                  <a href="https://github.com/wedodge89/cozy-couch">
-                    <img
-                      class="logo github-link"
-                      src={gitlink}
-                      alt="Github Link"
-                    />
-                  </a>
-                  <a href="https://shelfy-shelf.herokuapp.com/" target="_blank">
-                    <p>Live Site</p>
-                  </a>
+                  <p>
+                    <a href="https://github.com/wedodge89/cozy-couch">
+                      <img
+                        class="logo github-link"
+                        src={gitlink}
+                        alt="Github Link"
+                      />
+                    </a>
+                    <a
+                      href="https://shelfy-shelf.herokuapp.com/"
+                      target="_blank"
+                    >
+                      <p>Live Site</p>
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
