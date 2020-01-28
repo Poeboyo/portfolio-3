@@ -3,6 +3,7 @@ import "./App.css";
 import Sky from "./components/Sky";
 import Name from "./components/Name";
 import Tabs from "./components/Tabs";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Sky />
       <Name />
       <Tabs />
+      <Footer />
     </div>
   );
 }
