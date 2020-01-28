@@ -13,7 +13,7 @@ class Tabs extends Component {
               <a href="#portfolio">Portfolio</a>
             </li>
             <li class="tab col s4 z-depth-4">
-              <a href="#about-me">About Me / Resume</a>
+              <a href="#about-me">About Me</a>
             </li>
             <li class="tab col s4 z-depth-4">
               <a href="#contact-me">Contact Me</a>
