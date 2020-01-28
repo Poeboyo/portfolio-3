@@ -463,21 +463,16 @@ class Projects extends Component {
                       </li>
                     </ul>
                   </p>
-                  <p>
-                    <a href="https://github.com/wedodge89/cozy-couch">
-                      <img
-                        class="logo github-link"
-                        src={gitlink}
-                        alt="Github Link"
-                      />
-                    </a>
-                    <a
-                      href="https://shelfy-shelf.herokuapp.com/"
-                      target="_blank"
-                    >
-                      <p>Live Site</p>
-                    </a>
-                  </p>
+                  <a href="https://github.com/wedodge89/cozy-couch">
+                    <img
+                      class="logo github-link"
+                      src={gitlink}
+                      alt="Github Link"
+                    />
+                  </a>
+                  <a href="https://shelfy-shelf.herokuapp.com/" target="_blank">
+                    <p>Live Site</p>
+                  </a>
                 </div>
               </div>
             </div>
