@@ -24,9 +24,9 @@ class Tabs extends Component {
         </div>
         <div id="about-me" class="col s12">
           <div class="row">
-            <div class="col s3 sides"></div>
+            <div class="col s2 sides"></div>
             <About />
-            <div class="col s3 sides"></div>
+            <div class="col s2 sides"></div>
           </div>
         </div>
         <div id="portfolio" class="col s12">
