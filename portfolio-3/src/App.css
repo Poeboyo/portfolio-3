@@ -48,20 +48,15 @@ a {
   background-color: grey;
 }
 .headshot {
-  width: 40%;
+  width: 75%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 8%;
-  margin-bottom: 8%;
 }
 .about-content {
+  margin-top: 1.5%;
   background-color: white;
-  border-style: solid;
-  border-left: 0px;
-  border-right: 0px;
-  border-bottom: 0px;
-  border-top-color: grey;
 }
 .row {
   background-color: whitesmoke;
@@ -75,6 +70,9 @@ a {
 .logo {
   height: 8%;
   width: 8%;
+}
+#about-box {
+  background-color: white;
 }
 .contact {
   padding: 5%;
@@ -92,4 +90,16 @@ a {
 }
 #footer {
   background-color: #23395d;
+}
+.abttxt {
+  margin-top: 13%;
+  margin-right: 4%;
+}
+.icon-set {
+  width: 95%;
+}
+.bruh {
+  background-color: #23395d;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
