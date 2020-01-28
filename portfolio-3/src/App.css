@@ -1,10 +1,12 @@
 body {
-  background-color: whitesmoke;
+  background-color: #23395d;
 }
 a {
   color: aqua;
 }
-
+.sky-box {
+  width: 100%;
+}
 .name-poe {
   text-align: center;
   color: aliceblue;
@@ -15,13 +17,12 @@ a {
   opacity: 0.95;
   width: 45%;
   margin-left: 30%;
-  position: absolute;
   margin-top: 18%;
 }
 
 .tab-management {
-  position: absolute;
-  margin-top: 54.75%;
+  position: relative;
+  margin-top: 27%;
   width: 100%;
 }
 .tabs .tab a {
@@ -46,4 +47,30 @@ a {
 /* #contact-me{} */
 .sides {
   background-color: grey;
+}
+.headshot {
+  height: 40%;
+  width: 20%;
+  /* transform: rotate(90deg); */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.about-content {
+  background-color: white;
+}
+.row {
+  background-color: whitesmoke;
+}
+.github-link {
+  margin-top: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  height: 8%;
+  width: 8%;
 }
