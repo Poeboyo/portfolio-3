@@ -6,16 +6,16 @@ import MyForm from "./Contact";
 class Tabs extends Component {
   render() {
     return (
-      <div class="row tab-management">
+      <div class="row tab-management z-depth-4">
         <div class="col s12 white">
           <ul class="tabs">
-            <li class="active" class="tab col s4">
+            <li class="active" class="tab col s4 z-depth-4">
               <a href="#portfolio">Portfolio</a>
             </li>
-            <li class="tab col s4">
+            <li class="tab col s4 z-depth-4">
               <a href="#about-me">About Me / Resume</a>
             </li>
-            <li class="tab col s4">
+            <li class="tab col s4 z-depth-4">
               <a href="#contact-me">Contact Me</a>
             </li>
           </ul>
