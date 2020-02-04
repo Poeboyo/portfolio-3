@@ -49,7 +49,7 @@ class Projects extends Component {
                 </p>
                 <p>
                   <a
-                    href="https://poeboyo.github.io/unit-4-game/"
+                    href="https://poeboyo.github.io/hallownest-hoarder/"
                     target="_blank"
                   >
                     Live Site
