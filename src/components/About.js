@@ -18,6 +18,11 @@ class About extends Component {
   render() {
     return (
       <div class="col s10 about-content">
+        <div class="center-align resume">
+          <a href="https://docs.google.com/document/d/1tZSWe2s0eQRdobAexSXQWpEuq4lDlbOKbzQ3U7dY3oc/view">
+            View My Resume Here
+          </a>
+        </div>
         <div class="row" id="about-box">
           <div class="col s12 align-center">
             <img
