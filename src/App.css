@@ -7,12 +7,8 @@ a {
 
 .sky-box {
   width: 100%;
-<<<<<<< HEAD
   height: 100%;
   z-index: -1;
-=======
-  height: 60%;
->>>>>>> 9007920927d66161beb7534179521f9520f918c2
 }
 .name-poe {
   font-size: 4vw;
