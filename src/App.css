@@ -7,8 +7,12 @@ a {
 
 .sky-box {
   width: 100%;
+<<<<<<< HEAD
   height: 100%;
   z-index: -1;
+=======
+  height: 60%;
+>>>>>>> 9007920927d66161beb7534179521f9520f918c2
 }
 .name-poe {
   font-size: 4vw;
@@ -19,14 +23,14 @@ a {
 .name-poe-backing {
   background-color: #23395d;
   opacity: 0.95;
-  width: 45%;
+  width: 50%;
   margin-left: 30%;
   margin-top: 18%;
 }
 
 .tab-management {
   position: relative;
-  margin-top: 27%;
+  margin-top: 20%;
   width: 100%;
 }
 .tabs .tab a {
