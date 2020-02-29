@@ -11,6 +11,7 @@ import psychic from "../assets/projects/psychic.jpg";
 import train from "../assets/projects/train.png";
 import whether from "../assets/projects/whether.png";
 import cozycouch from "../assets/projects/cozycouch.png";
+import memory from "../assets/projects/memory.png";
 
 class Projects extends Component {
   render() {
@@ -476,6 +477,47 @@ class Projects extends Component {
                       target="_blank"
                     >
                       <p>Live Site</p>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col s m4">
+              <div class="card z-depth-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src={memory} alt="Memory Game" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4 center">
+                    Witcher Memory Game
+                  </span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">
+                    Witcher Memory Game
+                    <i class="material-icons right">close</i>
+                  </span>
+                  <p class="card-text">
+                    A Witcher 3: The Wild Hunt Inspired Memory Game
+                  </p>
+                  <p>
+                    <a
+                      href="https://poeboyo.github.io/memory-game/"
+                      target="_blank"
+                    >
+                      <img
+                        class="logo github-link"
+                        src={gitlink}
+                        alt="Github Link"
+                      />
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href="https://poeboyo.github.io/memory-game/"
+                      target="_blank"
+                    >
+                      Live Site
                     </a>
                   </p>
                 </div>
