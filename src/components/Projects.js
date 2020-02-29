@@ -38,7 +38,7 @@ class Projects extends Component {
                 </p>
                 <p>
                   <a
-                    href="https://poeboyo.github.io/hallownest-hoarder/"
+                    href="https://github.com/Poeboyo/hallownest-hoarder"
                     target="_blank"
                   >
                     <img
@@ -502,7 +502,7 @@ class Projects extends Component {
                   </p>
                   <p>
                     <a
-                      href="https://poeboyo.github.io/memory-game/"
+                      href="https://github.com/Poeboyo/memory-game"
                       target="_blank"
                     >
                       <img
