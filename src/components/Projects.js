@@ -500,13 +500,9 @@ class Projects extends Component {
                   <p className="card-text">
                     A Chill App for vibing, low-fi, and logging favorite
                     activites.
-                    <ul>
-                      <li>Front End Design: Jeffrey Poe</li>
-                      <li>Backend and Routing: Elliot Dodge</li>
-                      <li>
-                        API Management and Implementation: Tsendpurev Saran
-                      </li>
-                    </ul>
+                    <p>Front End Design: Jeffrey Poe</p>{" "}
+                    <p>Backend and Routing: Elliot Dodge</p>{" "}
+                    <p>API Management and Implementation: Tsendpurev Saran</p>
                   </p>
                   <p>
                     <a
