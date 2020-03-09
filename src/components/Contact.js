@@ -12,8 +12,8 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <div class="container contact">
-        <h3 class="center-align contact-header">Contact Me</h3>
+      <div className="container contact">
+        <h3 className="center-align contact-header">Contact Me</h3>
         <form
           onSubmit={this.submitForm}
           action="https://formspree.io/xkngazbp"
@@ -26,7 +26,7 @@ export default class MyForm extends React.Component {
           {status === "SUCCESS" ? (
             <p>Thanks!</p>
           ) : (
-            <button class="btn light-blue darken-4">Submit</button>
+            <button className="btn light-blue darken-4">Submit</button>
           )}
           {status === "ERROR" && <p>Ooops! There was an error.</p>}
         </form>

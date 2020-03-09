@@ -16,23 +16,28 @@ import memory from "../assets/projects/memory.png";
 class Projects extends Component {
   render() {
     return (
-      <div class="projects scrollspy" id="portfolio">
-        <div class="row">
-          <div class="col s m4">
-            <div class="card z-depth-4">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src={hollowknight} alt="Hollow Knight" />
+      <div className="projects scrollspy" id="portfolio">
+        <div className="row">
+          <div className="col s m4">
+            <div className="card z-depth-4">
+              <div className="card-image waves-effect waves-block waves-light">
+                <img
+                  className="activator"
+                  src={hollowknight}
+                  alt="Hollow Knight"
+                />
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4 center">
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4 center">
                   Hollow Knight Clicker
                 </span>
               </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">
-                  Hollow Knight Clicker<i class="material-icons right">close</i>
+              <div className="card-reveal">
+                <span className="card-title grey-text text-darken-4">
+                  Hollow Knight Clicker
+                  <i className="material-icons right">close</i>
                 </span>
-                <p class="card-text">
+                <p className="card-text">
                   A Hollow Knight Inspired Number Match/ Clicker Based Number
                   Game
                 </p>
@@ -43,7 +48,7 @@ class Projects extends Component {
                     rel="noopener noreferrer"
                   >
                     <img
-                      class="logo github-link"
+                      className="logo github-link"
                       src={gitlink}
                       alt="Github Link"
                     />
@@ -62,24 +67,24 @@ class Projects extends Component {
             </div>
           </div>
 
-          <div class="col s m4">
-            <div class="card z-depth-4">
-              <div class="card-image waves-effect waves-block waves-light">
+          <div className="col s m4">
+            <div className="card z-depth-4">
+              <div className="card-image waves-effect waves-block waves-light">
                 {/* <!-- Item Image --> */}
-                <img class="activator" src={giphy} alt="Giphy Game" />
+                <img className="activator" src={giphy} alt="Giphy Game" />
               </div>
-              <div class="card-content">
+              <div className="card-content">
                 {/* <!-- Item Name / Title --> */}
-                <span class="card-title activator grey-text text-darken-4 center">
+                <span className="card-title activator grey-text text-darken-4 center">
                   GifTastic App
                 </span>
               </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">
-                  GifTastic App<i class="material-icons right">close</i>
+              <div className="card-reveal">
+                <span className="card-title grey-text text-darken-4">
+                  GifTastic App<i className="material-icons right">close</i>
                 </span>
                 {/* <!-- Description --> */}
-                <p class="card-text">
+                <p className="card-text">
                   By Utilizing the Giphy Api, specific gifs are added to the
                   page with user generated and pre-existing buttons
                 </p>
@@ -91,7 +96,7 @@ class Projects extends Component {
                     rel="noopener noreferrer"
                   >
                     <img
-                      class="logo github-link"
+                      className="logo github-link"
                       src={gitlink}
                       alt="Github Link"
                     />
@@ -110,21 +115,21 @@ class Projects extends Component {
             </div>
           </div>
 
-          <div class="col s m4">
-            <div class="card z-depth-4">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src={train} alt="Train App" />
+          <div className="col s m4">
+            <div className="card z-depth-4">
+              <div className="card-image waves-effect waves-block waves-light">
+                <img className="activator" src={train} alt="Train App" />
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4 center">
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4 center">
                   Train Scheduler
                 </span>
               </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">
-                  Train Scheduler<i class="material-icons right">close</i>
+              <div className="card-reveal">
+                <span className="card-title grey-text text-darken-4">
+                  Train Scheduler<i className="material-icons right">close</i>
                 </span>
-                <p class="card-text">
+                <p className="card-text">
                   A Mock Train Scheduler that uses FireBase and Moment.js to
                   keep live data on the trains already on the list
                 </p>
@@ -136,7 +141,7 @@ class Projects extends Component {
                     rel="noopener noreferrer"
                   >
                     <img
-                      class="logo github-link"
+                      className="logo github-link"
                       src={gitlink}
                       alt="Github Link"
                     />
@@ -156,22 +161,22 @@ class Projects extends Component {
           </div>
         </div>
 
-        <div class="row">
-          <div class="col s m4">
-            <div class="card z-depth-4">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src={whether} alt="Whether App" />
+        <div className="row">
+          <div className="col s m4">
+            <div className="card z-depth-4">
+              <div className="card-image waves-effect waves-block waves-light">
+                <img className="activator" src={whether} alt="Whether App" />
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4 center">
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4 center">
                   Whether
                 </span>
               </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">
-                  Whether<i class="material-icons right">close</i>
+              <div className="card-reveal">
+                <span className="card-title grey-text text-darken-4">
+                  Whether<i className="material-icons right">close</i>
                 </span>
-                <p class="card-text">
+                <p className="card-text">
                   Because Who Wouldn't Want A Poem and a Spotify Playlist to go
                   with the Weather(Group Exercise){" "}
                 </p>
@@ -183,7 +188,7 @@ class Projects extends Component {
                     rel="noopener noreferrer"
                   >
                     <img
-                      class="logo github-link"
+                      className="logo github-link"
                       src={gitlink}
                       alt="Github Link"
                     />
@@ -202,24 +207,29 @@ class Projects extends Component {
             </div>
           </div>
 
-          <div class="col s m4">
-            <div class="card z-depth-4">
-              <div class="card-image waves-effect waves-block waves-light">
+          <div className="col s m4">
+            <div className="card z-depth-4">
+              <div className="card-image waves-effect waves-block waves-light">
                 {/* <!-- Item Image --> */}
-                <img class="activator" src={csk} alt="College Survival Kit" />
+                <img
+                  className="activator"
+                  src={csk}
+                  alt="College Survival Kit"
+                />
               </div>
-              <div class="card-content">
+              <div className="card-content">
                 {/* <!-- Item Name / Title --> */}
-                <span class="card-title activator grey-text text-darken-4 center">
+                <span className="card-title activator grey-text text-darken-4 center">
                   College Survival Kit
                 </span>
               </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">
-                  College Survival Kit<i class="material-icons right">close</i>
+              <div className="card-reveal">
+                <span className="card-title grey-text text-darken-4">
+                  College Survival Kit
+                  <i className="material-icons right">close</i>
                 </span>
                 {/* <!-- Description --> */}
-                <p class="card-text">
+                <p className="card-text">
                   Number One Money Saver and Time Waster for the Average College
                   Student
                 </p>
@@ -231,7 +241,7 @@ class Projects extends Component {
                     rel="noopener noreferrer"
                   >
                     <img
-                      class="logo github-link"
+                      className="logo github-link"
                       src={gitlink}
                       alt="Github Link"
                     />
@@ -250,25 +260,26 @@ class Projects extends Component {
             </div>
           </div>
 
-          <div class="col s m4">
-            <div class="card z-depth-4">
-              <div class="card-image waves-effect waves-block waves-light">
+          <div className="col s m4">
+            <div className="card z-depth-4">
+              <div className="card-image waves-effect waves-block waves-light">
                 <img
-                  class="activator"
+                  className="activator"
                   src={majora}
                   alt="Majora's Mask Trivia"
                 />
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4 center">
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4 center">
                   Majora's Mask Trivia
                 </span>
               </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">
-                  Majora's Mask Trivia<i class="material-icons right">close</i>
+              <div className="card-reveal">
+                <span className="card-title grey-text text-darken-4">
+                  Majora's Mask Trivia
+                  <i className="material-icons right">close</i>
                 </span>
-                <p class="card-text">
+                <p className="card-text">
                   Legend of Zelda: Majoras Mask based Trivia{" "}
                 </p>
                 <p>
@@ -279,7 +290,7 @@ class Projects extends Component {
                     rel="noopener noreferrer"
                   >
                     <img
-                      class="logo github-link"
+                      className="logo github-link"
                       src={gitlink}
                       alt="Github Link"
                     />
@@ -297,23 +308,23 @@ class Projects extends Component {
           </div>
         </div>
 
-        <div class="row">
+        <div className="row">
           {/* <!-- Menu Item --> */}
-          <div class="col s m4">
-            <div class="card z-depth-4">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src={bamazon} alt="Bamazon CL App" />
+          <div className="col s m4">
+            <div className="card z-depth-4">
+              <div className="card-image waves-effect waves-block waves-light">
+                <img className="activator" src={bamazon} alt="Bamazon CL App" />
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4 center">
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4 center">
                   Bamazon
                 </span>
               </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">
-                  Bamazon<i class="material-icons right">close</i>
+              <div className="card-reveal">
+                <span className="card-title grey-text text-darken-4">
+                  Bamazon<i className="material-icons right">close</i>
                 </span>
-                <p class="card-text">
+                <p className="card-text">
                   An Amazon Inspired Command Line Application that utilized
                   Node.js and MySQL Server Hosted on my machine to allow for
                   purchases to be made and Stock to be updated for these
@@ -326,7 +337,7 @@ class Projects extends Component {
                     rel="noopener noreferrer"
                   >
                     <img
-                      class="logo github-link"
+                      className="logo github-link"
                       src={gitlink}
                       alt="Github Link"
                     />
@@ -337,24 +348,24 @@ class Projects extends Component {
             </div>
           </div>
 
-          <div class="col s m4">
-            <div class="card z-depth-4">
-              <div class="card-image waves-effect waves-block waves-light">
+          <div className="col s m4">
+            <div className="card z-depth-4">
+              <div className="card-image waves-effect waves-block waves-light">
                 {/* <!-- Item Image --> */}
-                <img class="activator" src={liri} alt="CLI Liri App" />
+                <img className="activator" src={liri} alt="CLI Liri App" />
               </div>
-              <div class="card-content">
+              <div className="card-content">
                 {/* <!-- Item Name / Title --> */}
-                <span class="card-title activator grey-text text-darken-4 center">
+                <span className="card-title activator grey-text text-darken-4 center">
                   Liri App
                 </span>
               </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">
-                  Liri App<i class="material-icons right">close</i>
+              <div className="card-reveal">
+                <span className="card-title grey-text text-darken-4">
+                  Liri App<i className="material-icons right">close</i>
                 </span>
                 {/* <!-- Description --> */}
-                <p class="card-text">
+                <p className="card-text">
                   A Siri like Command Line App called Liri for legal reasons,
                   using pre-made commands to search for Movies, Songs, Concerts,
                   etc by utilizing multiple APIs
@@ -367,7 +378,7 @@ class Projects extends Component {
                     rel="noopener noreferrer"
                   >
                     <img
-                      class="logo github-link"
+                      className="logo github-link"
                       src={gitlink}
                       alt="Github Link"
                     />
@@ -377,22 +388,22 @@ class Projects extends Component {
             </div>
           </div>
 
-          <div class="col s m4">
-            <div class="card z-depth-4">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src={psychic} alt="Psychic Game" />
+          <div className="col s m4">
+            <div className="card z-depth-4">
+              <div className="card-image waves-effect waves-block waves-light">
+                <img className="activator" src={psychic} alt="Psychic Game" />
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4 center">
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4 center">
                   Psychic Letter Guesser
                 </span>
               </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">
+              <div className="card-reveal">
+                <span className="card-title grey-text text-darken-4">
                   Psychic Letter Guesser
-                  <i class="material-icons right">close</i>
+                  <i className="material-icons right">close</i>
                 </span>
-                <p class="card-text">
+                <p className="card-text">
                   A JavaScript powered Letter Guesser, you play the Psychic,
                   guessing what the Program has preordained to be the correct
                   answer...
@@ -405,7 +416,7 @@ class Projects extends Component {
                     rel="noopener noreferrer"
                   >
                     <img
-                      class="logo github-link"
+                      className="logo github-link"
                       src={gitlink}
                       alt="Github Link"
                     />
@@ -424,23 +435,23 @@ class Projects extends Component {
             </div>
           </div>
 
-          <div class="row">
-            <div class="col s m4">
-              <div class="card z-depth-4">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src={burger} alt="Burger App" />
+          <div className="row">
+            <div className="col s m4">
+              <div className="card z-depth-4">
+                <div className="card-image waves-effect waves-block waves-light">
+                  <img className="activator" src={burger} alt="Burger App" />
                 </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4 center">
+                <div className="card-content">
+                  <span className="card-title activator grey-text text-darken-4 center">
                     Burger Maker/Consumer
                   </span>
                 </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">
+                <div className="card-reveal">
+                  <span className="card-title grey-text text-darken-4">
                     Burger Maker/Consumer
-                    <i class="material-icons right">close</i>
+                    <i className="material-icons right">close</i>
                   </span>
-                  <p class="card-text">
+                  <p className="card-text">
                     A Small Application that allows a User to Eat a Prepared
                     Burger as well as Consume those created by the user
                     themself.
@@ -453,7 +464,7 @@ class Projects extends Component {
                       rel="noopener noreferrer"
                     >
                       <img
-                        class="logo github-link"
+                        className="logo github-link"
                         src={gitlink}
                         alt="Github Link"
                       />
@@ -472,21 +483,21 @@ class Projects extends Component {
               </div>
             </div>
             {/* <!-- Menu Item --> */}
-            <div class="col s m4">
-              <div class="card z-depth-4">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src={cozycouch} alt="A Cozy App" />
+            <div className="col s m4">
+              <div className="card z-depth-4">
+                <div className="card-image waves-effect waves-block waves-light">
+                  <img className="activator" src={cozycouch} alt="A Cozy App" />
                 </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4 center">
+                <div className="card-content">
+                  <span className="card-title activator grey-text text-darken-4 center">
                     Cozy Couch
                   </span>
                 </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">
-                    Cozy Couch<i class="material-icons right">close</i>
+                <div className="card-reveal">
+                  <span className="card-title grey-text text-darken-4">
+                    Cozy Couch<i className="material-icons right">close</i>
                   </span>
-                  <p class="card-text">
+                  <p className="card-text">
                     A Chill App for vibing, low-fi, and logging favorite
                     activites.
                     <ul>
@@ -503,7 +514,7 @@ class Projects extends Component {
                       rel="noopener noreferrer"
                     >
                       <img
-                        class="logo github-link"
+                        className="logo github-link"
                         src={gitlink}
                         alt="Github Link"
                       />
@@ -519,22 +530,22 @@ class Projects extends Component {
                 </div>
               </div>
             </div>
-            <div class="col s m4">
-              <div class="card z-depth-4">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src={memory} alt="Memory Game" />
+            <div className="col s m4">
+              <div className="card z-depth-4">
+                <div className="card-image waves-effect waves-block waves-light">
+                  <img className="activator" src={memory} alt="Memory Game" />
                 </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4 center">
+                <div className="card-content">
+                  <span className="card-title activator grey-text text-darken-4 center">
                     Witcher Memory Game
                   </span>
                 </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">
+                <div className="card-reveal">
+                  <span className="card-title grey-text text-darken-4">
                     Witcher Memory Game
-                    <i class="material-icons right">close</i>
+                    <i className="material-icons right">close</i>
                   </span>
-                  <p class="card-text">
+                  <p className="card-text">
                     A Witcher 3: The Wild Hunt Inspired Memory Game
                   </p>
                   <p>
@@ -544,7 +555,7 @@ class Projects extends Component {
                       rel="noopener noreferrer"
                     >
                       <img
-                        class="logo github-link"
+                        className="logo github-link"
                         src={gitlink}
                         alt="Github Link"
                       />
