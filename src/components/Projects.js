@@ -497,13 +497,11 @@ class Projects extends Component {
                   <span className="card-title grey-text text-darken-4">
                     Cozy Couch<i className="material-icons right">close</i>
                   </span>
-                  <p className="card-text">
-                    A Chill App for vibing, low-fi, and logging favorite
-                    activites.
-                    <p>Front End Design: Jeffrey Poe</p>{" "}
-                    <p>Backend and Routing: Elliot Dodge</p>{" "}
-                    <p>API Management and Implementation: Tsendpurev Saran</p>
-                  </p>
+                  <p className="card-text"></p>A Chill App for vibing, low-fi,
+                  and logging favorite activites.
+                  <p>Front End Design: Jeffrey Poe</p>{" "}
+                  <p>Backend and Routing: Elliot Dodge</p>{" "}
+                  <p>API Management and Implementation: Tsendpurev Saran</p>
                   <p>
                     <a
                       href="https://github.com/wedodge89/cozy-couch"
