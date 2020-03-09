@@ -52,50 +52,60 @@ class About extends Component {
 
         <div class="row bruh hide-on-small-only">
           <div class="col s3">
-            <img src={html} alt="icon" class="icon-set" />
+            <img src={html} alt="icon" class="icon-set" alt="html" />
           </div>
           <div class="col s3">
-            <img src={css} alt="icon" class="icon-set" />
+            <img src={css} alt="icon" class="icon-set" alt="css" />
           </div>
           <div class="col s3">
-            <img src={js} alt="icon" class="icon-set" />
+            <img src={js} alt="icon" class="icon-set" alt="js" />
           </div>
           <div class="col s3">
-            <img src={bootstrap} alt="icon" class="icon-set" />
+            <img src={bootstrap} alt="icon" class="icon-set" alt="bootstrap" />
           </div>
         </div>
         <div class="row bruh hide-on-small-only">
           <div class="col s3">
-            <img src={materialize} alt="icon" class="icon-set" />
+            <img
+              src={materialize}
+              alt="icon"
+              class="icon-set"
+              alt="materialize"
+            />
           </div>
           <div class="col s3">
-            <img src={handlebars} alt="icon" class="icon-set" />
+            <img
+              src={handlebars}
+              alt="icon"
+              class="icon-set"
+              alt="handlebars"
+            />
           </div>
           <div class="col s3">
-            <img src={node} alt="icon" class="icon-set" />
+            <img src={node} alt="icon" class="icon-set" alt="node" />
           </div>
           <div class="col s3">
-            <img src={express} alt="icon" class="icon-set" />
+            <img src={express} alt="icon" class="icon-set" alt="express" />
           </div>
         </div>
 
         <div class="row bruh hide-on-small-only">
           <div class="col s3">
-            <img src={mysql} alt="icon" class="icon-set" />
+            <img src={mysql} alt="icon" class="icon-set" alt="mysql" />
           </div>
           <div class="col s3">
-            <img src={firebase} alt="icon" class="icon-set" />
+            <img src={firebase} alt="icon" class="icon-set" alt="firebase" />
           </div>
           <div class="col s3">
-            <img src={mongodb} alt="icon" class="icon-set" />
+            <img src={mongodb} alt="icon" class="icon-set" alt="mongo" />
           </div>
           <div class="col s3">
-            <img src={sequelize} alt="icon" class="icon-set" />
+            <img src={sequelize} alt="icon" class="icon-set" alt="sequelize" />
           </div>
         </div>
         <div class="row bruh hide-on-small-only">
           <div class="col s3">
-            <img src={reactlogo} alt="icon" class="icon-set" />
+            <img src={reactlogo} alt="icon" class="icon-set" alt="react" />
           </div>
         </div>
       </div>

@@ -40,6 +40,7 @@ class Projects extends Component {
                   <a
                     href="https://github.com/Poeboyo/hallownest-hoarder"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <img
                       class="logo github-link"
@@ -52,6 +53,7 @@ class Projects extends Component {
                   <a
                     href="https://poeboyo.github.io/hallownest-hoarder/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Live Site
                   </a>
@@ -86,6 +88,7 @@ class Projects extends Component {
                   <a
                     href="https://github.com/Poeboyo/Giphy-Game"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <img
                       class="logo github-link"
@@ -98,6 +101,7 @@ class Projects extends Component {
                   <a
                     href="https://poeboyo.github.io/Giphy-Game/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Live Site
                   </a>
@@ -129,6 +133,7 @@ class Projects extends Component {
                   <a
                     href="https://github.com/Poeboyo/Train-Display"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <img
                       class="logo github-link"
@@ -141,6 +146,7 @@ class Projects extends Component {
                   <a
                     href="https://poeboyo.github.io/Train-Display/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Live Site
                   </a>
@@ -174,6 +180,7 @@ class Projects extends Component {
                   <a
                     href="https://github.com/wedodge89/whether"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <img
                       class="logo github-link"
@@ -186,6 +193,7 @@ class Projects extends Component {
                   <a
                     href="https://wedodge89.github.io/whether/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Live Site
                   </a>
@@ -220,6 +228,7 @@ class Projects extends Component {
                   <a
                     href="https://github.com/Poeboyo/collegesurvivalkit"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <img
                       class="logo github-link"
@@ -232,6 +241,7 @@ class Projects extends Component {
                   <a
                     href="https://poeboyo.github.io/collegesurvivalkit/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Live Site
                   </a>
@@ -266,6 +276,7 @@ class Projects extends Component {
                   <a
                     href="https://github.com/Poeboyo/TriviaGame"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <img
                       class="logo github-link"
@@ -274,7 +285,11 @@ class Projects extends Component {
                     />
                   </a>
                 </p>
-                <a href="https://poeboyo.github.io/TriviaGame/" target="_blank">
+                <a
+                  href="https://poeboyo.github.io/TriviaGame/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Live Site
                 </a>
               </div>
@@ -305,7 +320,11 @@ class Projects extends Component {
                   hypothetical products
                 </p>
                 <p>
-                  <a href="https://github.com/Poeboyo/bamazon" target="_blank">
+                  <a
+                    href="https://github.com/Poeboyo/bamazon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img
                       class="logo github-link"
                       src={gitlink}
@@ -345,6 +364,7 @@ class Projects extends Component {
                   <a
                     href="https://github.com/Poeboyo/liri-node-app"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <img
                       class="logo github-link"
@@ -379,7 +399,11 @@ class Projects extends Component {
                 </p>
                 <p>
                   {" "}
-                  <a href="https://github.com/Poeboyo/psychic" target="_blank">
+                  <a
+                    href="https://github.com/Poeboyo/psychic"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img
                       class="logo github-link"
                       src={gitlink}
@@ -388,7 +412,11 @@ class Projects extends Component {
                   </a>
                 </p>
                 <p>
-                  <a href="https://poeboyo.github.io/psychic/" target="_blank">
+                  <a
+                    href="https://poeboyo.github.io/psychic/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Live Site
                   </a>
                 </p>
@@ -422,6 +450,7 @@ class Projects extends Component {
                     <a
                       href="https://github.com/Poeboyo/burger-"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <img
                         class="logo github-link"
@@ -431,7 +460,11 @@ class Projects extends Component {
                     </a>
                   </p>
                   <p>
-                    <a href="https://borgorr.herokuapp.com/" target="_blank">
+                    <a
+                      href="https://borgorr.herokuapp.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Live Site
                     </a>
                   </p>
@@ -465,7 +498,10 @@ class Projects extends Component {
                     </ul>
                   </p>
                   <p>
-                    <a href="https://github.com/wedodge89/cozy-couch">
+                    <a
+                      href="https://github.com/wedodge89/cozy-couch"
+                      rel="noopener noreferrer"
+                    >
                       <img
                         class="logo github-link"
                         src={gitlink}
@@ -475,6 +511,7 @@ class Projects extends Component {
                     <a
                       href="https://shelfy-shelf.herokuapp.com/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <p>Live Site</p>
                     </a>
@@ -504,6 +541,7 @@ class Projects extends Component {
                     <a
                       href="https://github.com/Poeboyo/memory-game"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <img
                         class="logo github-link"
@@ -516,6 +554,7 @@ class Projects extends Component {
                     <a
                       href="https://poeboyo.github.io/memory-game/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Live Site
                     </a>
