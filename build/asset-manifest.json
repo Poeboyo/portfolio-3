@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/portfolio-3/static/css/main.de7e7ff3.chunk.css",
+    "main.js": "/portfolio-3/static/js/main.851f63c9.chunk.js",
+    "main.js.map": "/portfolio-3/static/js/main.851f63c9.chunk.js.map",
+    "runtime-main.js": "/portfolio-3/static/js/runtime-main.cf6a5abc.js",
+    "runtime-main.js.map": "/portfolio-3/static/js/runtime-main.cf6a5abc.js.map",
+    "static/js/2.3b7f2d63.chunk.js": "/portfolio-3/static/js/2.3b7f2d63.chunk.js",
+    "static/js/2.3b7f2d63.chunk.js.map": "/portfolio-3/static/js/2.3b7f2d63.chunk.js.map",
+    "index.html": "/portfolio-3/index.html",
+    "precache-manifest.371ba074e0916081df00a7c749213742.js": "/portfolio-3/precache-manifest.371ba074e0916081df00a7c749213742.js",
+    "service-worker.js": "/portfolio-3/service-worker.js",
+    "static/css/main.de7e7ff3.chunk.css.map": "/portfolio-3/static/css/main.de7e7ff3.chunk.css.map",
+    "static/js/2.3b7f2d63.chunk.js.LICENSE": "/portfolio-3/static/js/2.3b7f2d63.chunk.js.LICENSE",
+    "static/media/bamazon.png": "/portfolio-3/static/media/bamazon.bdf1a4ef.png",
+    "static/media/burger.png": "/portfolio-3/static/media/burger.995e29f8.png",
+    "static/media/codewars.png": "/portfolio-3/static/media/codewars.0ee26cdb.png",
+    "static/media/cozycouch.png": "/portfolio-3/static/media/cozycouch.054ff4a6.png",
+    "static/media/csk.png": "/portfolio-3/static/media/csk.dc077e0c.png",
+    "static/media/css-logo.png": "/portfolio-3/static/media/css-logo.e9c47db7.png",
+    "static/media/gif.png": "/portfolio-3/static/media/gif.46252831.png",
+    "static/media/github-logo.png": "/portfolio-3/static/media/github-logo.ecc4cf25.png",
+    "static/media/headshotcopy.jpeg": "/portfolio-3/static/media/headshotcopy.8889ecd2.jpeg",
+    "static/media/hollow-knight.png": "/portfolio-3/static/media/hollow-knight.61fa6a18.png",
+    "static/media/liri.png": "/portfolio-3/static/media/liri.db62a803.png",
+    "static/media/majora.png": "/portfolio-3/static/media/majora.d712f618.png",
+    "static/media/memory.png": "/portfolio-3/static/media/memory.e2e99752.png",
+    "static/media/mongodb-logo.png": "/portfolio-3/static/media/mongodb-logo.abcd506c.png",
+    "static/media/node-logo.png": "/portfolio-3/static/media/node-logo.3d61ef45.png",
+    "static/media/psychic.jpg": "/portfolio-3/static/media/psychic.5e8511db.jpg",
+    "static/media/react-logo.png": "/portfolio-3/static/media/react-logo.ce660fdc.png",
+    "static/media/sequelize-logo.png": "/portfolio-3/static/media/sequelize-logo.d96a3d08.png",
+    "static/media/train.png": "/portfolio-3/static/media/train.9b95b378.png",
+    "static/media/whether.png": "/portfolio-3/static/media/whether.dd79ebd7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf6a5abc.js",
+    "static/js/2.3b7f2d63.chunk.js",
+    "static/css/main.de7e7ff3.chunk.css",
+    "static/js/main.851f63c9.chunk.js"
+  ]
+}
