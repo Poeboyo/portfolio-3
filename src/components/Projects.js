@@ -502,25 +502,23 @@ class Projects extends Component {
                   <p>Front End Design: Jeffrey Poe</p>{" "}
                   <p>Backend and Routing: Elliot Dodge</p>{" "}
                   <p>API Management and Implementation: Tsendpurev Saran</p>
-                  <p>
-                    <a
-                      href="https://github.com/wedodge89/cozy-couch"
-                      rel="noopener noreferrer"
-                    >
-                      <img
-                        className="logo github-link"
-                        src={gitlink}
-                        alt="Github Link"
-                      />
-                    </a>
-                    <a
-                      href="https://shelfy-shelf.herokuapp.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <p>Live Site</p>
-                    </a>
-                  </p>
+                  <a
+                    href="https://github.com/wedodge89/cozy-couch"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="logo github-link"
+                      src={gitlink}
+                      alt="Github Link"
+                    />
+                  </a>
+                  <a
+                    href="https://shelfy-shelf.herokuapp.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Live Site
+                  </a>
                 </div>
               </div>
             </div>
