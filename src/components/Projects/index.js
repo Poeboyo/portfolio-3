@@ -1,17 +1,17 @@
 import React, { Component } from "react";
-import burger from "../assets/projects/burger.png";
-import bamazon from "../assets/projects/bamazon.png";
-import csk from "../assets/projects/csk.png";
-import giphy from "../assets/projects/gif.png";
-import gitlink from "../assets/projects/github-logo.png";
-import hollowknight from "../assets/projects/hollow-knight.png";
-import liri from "../assets/projects/liri.png";
-import majora from "../assets/projects/majora.png";
-import psychic from "../assets/projects/psychic.jpg";
-import train from "../assets/projects/train.png";
-import whether from "../assets/projects/whether.png";
-import cozycouch from "../assets/projects/cozycouch.png";
-import memory from "../assets/projects/memory.png";
+import burger from "../../assets/projects/burger.png";
+import bamazon from "../../assets/projects/bamazon.png";
+import csk from "../../assets/projects/csk.png";
+import giphy from "../../assets/projects/gif.png";
+import gitlink from "../../assets/projects/github-logo.png";
+import hollowknight from "../../assets/projects/hollow-knight.png";
+import liri from "../../assets/projects/liri.png";
+import majora from "../../assets/projects/majora.png";
+import psychic from "../../assets/projects/psychic.jpg";
+import train from "../../assets/projects/train.png";
+import whether from "../../assets/projects/whether.png";
+import cozycouch from "../../assets/projects/cozycouch.png";
+import memory from "../../assets/projects/memory.png";
 
 class Projects extends Component {
   render() {

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import About from "./About";
-import Projects from "./Projects";
-import MyForm from "./Contact";
+import About from "../About";
+import Projects from "../Projects";
+import MyForm from "../Contact";
 
 class Tabs extends Component {
   render() {

@@ -1,18 +1,18 @@
 import React, { Component } from "react";
-import headshot from "../assets/projects/headshotcopy.jpeg";
-import bootstrap from "../assets/bootstrap-logo.png";
-import js from "../assets/js-logo.png";
-import handlebars from "../assets/handlebars-logo.png";
-import node from "../assets/node-logo.png";
-import express from "../assets/express-logo.png";
-import css from "../assets/css-logo.png";
-import firebase from "../assets/firebase-logo.png";
-import html from "../assets/html-logo.png";
-import materialize from "../assets/materialize-logo.png";
-import mongodb from "../assets/mongodb-logo.png";
-import mysql from "../assets/mysql-logo.png";
-import reactlogo from "../assets/react-logo.png";
-import sequelize from "../assets/sequelize-logo.png";
+import headshot from "../../assets/projects/headshotcopy.jpeg";
+import bootstrap from "../../assets/bootstrap-logo.png";
+import js from "../../assets/js-logo.png";
+import handlebars from "../../assets/handlebars-logo.png";
+import node from "../../assets/node-logo.png";
+import express from "../../assets/express-logo.png";
+import css from "../../assets/css-logo.png";
+import firebase from "../../assets/firebase-logo.png";
+import html from "../../assets/html-logo.png";
+import materialize from "../../assets/materialize-logo.png";
+import mongodb from "../../assets/mongodb-logo.png";
+import mysql from "../../assets/mysql-logo.png";
+import reactlogo from "../../assets/react-logo.png";
+import sequelize from "../../assets/sequelize-logo.png";
 
 class About extends Component {
   render() {

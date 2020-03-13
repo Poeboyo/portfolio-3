@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import gitclick from "../assets/projects/gitclick.png";
-import linkedin from "../assets/projects/linkedin.png";
-import codewars from "../assets/projects/codewars.png";
+import gitclick from "../../assets/projects/gitclick.png";
+import linkedin from "../../assets/projects/linkedin.png";
+import codewars from "../../assets/projects/codewars.png";
 
 class Footer extends Component {
   render() {
